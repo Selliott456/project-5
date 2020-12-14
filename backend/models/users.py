@@ -2,7 +2,7 @@ from app import db, bcrypt
 from models.base import BaseModel
 from sqlalchemy.ext.hybrid import hybrid_property
 from datetime import *
-import jwt
+import jwt 
 from environment.config import secret
 
 class User(db.Model, BaseModel):
